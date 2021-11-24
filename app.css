@@ -1,0 +1,40 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* colors */
+/* .black{
+    color:black;
+} */
+
+/* flex */
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+/* alignment */
+
+.left-align{
+    text-align: justify;
+    text-align-last: left;
+}
+
+/* main */
+
+.main{
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+    gap: 2em;
+}
+
+
+
+
+
+
