@@ -83,7 +83,7 @@ li a{
     position: relative;
     top: 780px;
     background: #e4ccc8;
-    height: 4000px;
+    height: 4400px;
 }
 
 /* OPENING CLASSES */
@@ -97,12 +97,16 @@ li a{
     text-align-last: left;
 }
 
+.right-align{
+    text-align: justify;
+    text-align-last: right;
+}
+
 /* SLIDESHOW CLASSES */
 .slideshow{
     width: 700px;
-    height: 400px;
+    height: 500px;
     overflow: hidden;
-    
 }
 
 .middle{
@@ -113,7 +117,7 @@ li a{
 
 .navigation{
     position: absolute;
-    bottom: 20px;
+    bottom: 5px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -121,11 +125,16 @@ li a{
 .bar{
     width: 50px;
     height: 10px;
-    border: 2px solid #fff;
+    border: 2px solid white;
     margin: 6px;
     cursor: pointer;
     transition: .4s;
 }
+
+.bar:hover{
+    background-color: white;
+}
+
 input[name="r"]{
     position: absolute;
     visibility: hidden;
