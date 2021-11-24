@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -6,6 +11,37 @@ html{
 /* .black{
     color:black;
 } */
+
+/* HEADER CLASSES */
+
+.wrapper{
+    width: 1170px;
+    margin: 0 20%;
+}
+
+header{
+    height: 100px;
+    background: #2d2f21;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+
+li{
+    float: right;
+    line-height: 100px;
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    margin: 0 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
 
 /* INTRO CLASSES */
 
