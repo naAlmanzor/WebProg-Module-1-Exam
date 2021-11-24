@@ -6,6 +6,16 @@ html{
 /* .black{
     color:black;
 } */
+a{
+    gap:0.5em;
+    list-style: none;
+    color:#1E272D;
+    text-decoration: none;
+}
+a:hover{
+    color:"";
+    cursor: pointer;
+}
 
 /* flex */
 .column{
@@ -17,6 +27,15 @@ html{
     display: flex;
     flex-direction: row;
 }
+.opening{
+    position: absolute;
+}
+
+.about{
+    position: absolute;
+    left: 50px;
+    top: 2000px;
+}
 /* alignment */
 
 .left-align{
@@ -26,15 +45,86 @@ html{
 
 /* main */
 
-.main{
+.intro{
     align-items: center;
     justify-content: center;
     padding: 4em;
     gap: 2em;
 }
 
+/* authors */
+
+.authors{
+    border-width: 10px;
+    border-color: #ffffff;
+    transition: all 0.2s ease-in-out;
+    cursor:default;
+}
 
 
+/*tentative size of picture*/
+.slideshow{
+    width: 500px;
+    height: 400px;
+    
+}
 
+.middle{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
+}
+.position{
+    top: 1700px;
+}
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: .4s;
+}
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slide{
+    width: 20%;
+    height: 100%;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+
+}
+
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#r2:checked ~ .s1{
+    margin-left: -20%;
+}
+
+#r3:checked ~ .s1{
+    margin-left: -40%;
+}
 
