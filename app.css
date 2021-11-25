@@ -7,6 +7,10 @@ html{
     scroll-behavior: smooth;
 }
 
+.icons{
+    font-size: 400px;
+    color: white;
+}
 /* colors */
 /* .black{
     color:black;
