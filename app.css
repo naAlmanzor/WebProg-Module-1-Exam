@@ -10,10 +10,6 @@ html{
     scroll-behavior: smooth;
 }
 
-.icons{
-    font-size: 400px;
-    color: white;
-}
 /* colors */
 /* .black{
     color:black;
@@ -41,7 +37,6 @@ li{
 }
 
 li a{
-    text-decoration: none;
     letter-spacing: 4px;
     font-family: sans-serif;
     margin: 0 10px;
@@ -175,4 +170,16 @@ input[name="r"]{
 
 #r3:checked ~ .s1{
     margin-left: -40%;
+}
+
+
+/* ABOUT CLASSES */
+.icons{
+    font-size:40px;
+    color: black;
+    margin: 5px;
+}
+
+.icons:hover{
+    color: white;
 }
