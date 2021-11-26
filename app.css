@@ -10,11 +10,6 @@ html{
     scroll-behavior: smooth;
 }
 
-/* colors */
-/* .black{
-    color:black;
-} */
-
 /* HEADER CLASSES */
 
 .wrapper{
@@ -89,10 +84,6 @@ li a{
 }
 
 /* OPENING CLASSES */
-
-/* .opening{
-    position: absolute;
-} */
 
 .left-align{
     text-align: justify;
